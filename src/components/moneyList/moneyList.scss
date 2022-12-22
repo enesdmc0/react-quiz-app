@@ -1,0 +1,43 @@
+.moneyList {
+  flex : 1;
+  border : 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .pyramid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 20px;
+      width: 60%;
+
+    }
+    .active {
+      background-color: darkblue;
+      border : 1px solid white;
+    }
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+    .moneyList {
+      flex : 1.7;
+        ul {
+        .pyramid {
+            width : 60%;
+          padding : 7px;
+          font-size: 11px;
+        }
+        }
+    }
+}

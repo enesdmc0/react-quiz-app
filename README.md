@@ -12,7 +12,7 @@
 
 ## About The Project
 
-### Netlify Link :  [](https://enesquiz.netlify.app/)
+### Netlify Link :  [https://enesquiz.netlify.app/](https://enesquiz.netlify.app/)
 
 
 
